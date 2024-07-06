@@ -83,8 +83,8 @@ button {
 }
 @media (max-width: 600px) {
     .avengers img {
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
     }
     .avengers {
         padding-inline: 30px;
@@ -94,7 +94,7 @@ button {
     }
     p {
         font-size: 0.4rem;
-        width: 100%;
+        min-width: 100%;;
     }
     button {
         font-size: 0.8rem;
@@ -108,5 +108,8 @@ button {
     }
     .main-left img {
         width: 100%;
+    }
+    .avengers {
+        bottom: 30px;
     }
 }
