@@ -19,7 +19,7 @@
     height: 70px;
     object-fit: contain;
     /* padding: 15px; */
-    filter: drop-shadow(1px 1px 10px black);
+    filter: drop-shadow(1px 1px 1px white);
     transition: 0.2s ease;
 }
 .avengers img:hover {
@@ -80,4 +80,33 @@ button {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+}
+@media (max-width: 600px) {
+    .avengers img {
+        width: 10px;
+        height: 10px;
+    }
+    .avengers {
+        padding-inline: 30px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 0.4rem;
+        width: 100%;
+    }
+    button {
+        font-size: 0.8rem;
+    }
+    main {
+        padding-inline: 30px;
+        justify-content: center;
+    }
+    .main-left {
+        min-width: 50%;
+    }
+    .main-left img {
+        width: 100%;
+    }
 }
