@@ -94,8 +94,8 @@ button {
 }
 @media (max-width: 600px) {
     .avengers img {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
     .avengers {
         padding-inline: 30px;
@@ -123,6 +123,6 @@ button {
         width: 100%;
     }
     .avengers {
-        bottom: 30px;
+        bottom: 20px;
     }
 }
