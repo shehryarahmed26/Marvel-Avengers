@@ -7,6 +7,15 @@ avengers.forEach((avenger) => {
     avenger.addEventListener('click', (e) => {
         url = e.target.src
         name = e.target.alt
+        // name.classList.add('img')
+        mainimg.classList.add('img')
+        setTimeout(() => {
+            mainimg.classList.remove('img')
+            // name.classList.remove('img')
+        }, 500)
+        // setTimeout(() => {
+        //     name.classList.remove('img')
+        // }, 500)
         mainimg.src = url
         hero.innerHTML = name
         

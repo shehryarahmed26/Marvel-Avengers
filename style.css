@@ -81,6 +81,17 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+.img{
+    transform: scale(0.5);
+    animation: upDown 300ms ease-in-out forwards;
+}
+@keyframes upDown {
+    0%{
+    transform: scale(0.5);
+    }50%{
+    transform: scale(1);
+    }
+}
 @media (max-width: 600px) {
     .avengers img {
         width: 40px;
